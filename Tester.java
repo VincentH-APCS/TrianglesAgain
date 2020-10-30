@@ -1,6 +1,6 @@
 public class Tester{
   public static void main(String[] args){
-      Point P1 = new Point(2,4);
+      Point P1 = new Point(1,1);
       Point P2 = new Point(-1,-1);
       //System.out.println(P1.getX());
       //System.out.println(P1.getY());
