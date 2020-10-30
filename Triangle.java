@@ -9,6 +9,9 @@ public class Triangle{
     Point a = new Point(x1,y1);
     Point b = new Point(x2,y2);
     Point c = new Point(x3,y3);
+    v1 = a;
+    v2 = b;
+    v3 = c;
   }
 
   public double getPerimeter(){
