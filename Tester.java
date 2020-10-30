@@ -6,7 +6,7 @@ public class Tester{
       Triangle Delta = new Triangle(P1, P2, P3);
       Triangle Gamma = new Triangle(0,0,4,0,4,4);
       Triangle Omega = new Triangle(0.1,0.1,-1.9,0.1,-0.9,-1.63205);
-      System.out.println(P1.distanceTo(P2));
+    /*  System.out.println(P1.distanceTo(P2));
       System.out.println(P3.distanceTo(P2));
       System.out.println(P1.distanceTo(P3));
       System.out.println(Delta.getPerimeter());
@@ -18,6 +18,10 @@ public class Tester{
       System.out.println(Omega.classify());
       System.out.println(Delta.toString());
       System.out.println(Gamma.toString());
-      System.out.println(Omega.toString());
+      System.out.println(Omega.toString()); */
+      System.out.println(Delta.toString());
+      Point TheNewVertex = new Point(1.1, 1.4);
+      Delta.setVertex(0,TheNewVertex);
+      System.out.println(Delta.toString());
   }
 }
