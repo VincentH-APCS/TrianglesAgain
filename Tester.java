@@ -11,6 +11,7 @@ public class Tester{
       System.out.println(Delta.getPerimeter());
       //System.out.println(Gamma.getPerimeter());
       System.out.println(Delta.getArea());
+      System.out.println(Gamma.getArea());
   }
 
 }
