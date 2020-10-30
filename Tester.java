@@ -9,7 +9,8 @@ public class Tester{
       System.out.println(P3.distanceTo(P2));
       System.out.println(P1.distanceTo(P3));
       System.out.println(Delta.getPerimeter());
-      System.out.println(Gamma.getPerimeter());
+      //System.out.println(Gamma.getPerimeter());
+      System.out.println(Delta.getArea());
   }
 
 }
