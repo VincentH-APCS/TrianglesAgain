@@ -15,4 +15,9 @@ public double getX(){
 public double getY(){
   return y;
 }
+public double distanceTo(Point other){
+    return (Math.sqrt (((other.x - x) * (other.x - x)) +
+    ((other.y - y) * (other.y - y))));
+    }
 }
+//}
