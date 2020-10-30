@@ -21,7 +21,8 @@ public class Tester{
       System.out.println(Omega.toString()); */
       System.out.println(Delta.toString());
       Point TheNewVertex = new Point(1.1, 1.4);
-      Delta.setVertex(0,TheNewVertex);
+      Delta.setVertex(2,TheNewVertex);
+      Delta.setVertex(1,P3);
       System.out.println(Delta.toString());
   }
 }
